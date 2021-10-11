@@ -4,6 +4,7 @@
         <LearnMore/>
         <WelcomeToFable/>
         <Overview/>
+        <Classes/>
     </main>
   
 </template>
@@ -13,6 +14,7 @@ import Hero from './Hero.vue';
 import LearnMore from './LearnMore.vue';
 import WelcomeToFable from './WelcomeToFable.vue';
 import Overview from './Overview.vue';
+import Classes from './Classes.vue';
 
 export default {
     name: 'Main',
@@ -20,7 +22,8 @@ export default {
         Hero,
         LearnMore,
         WelcomeToFable,
-        Overview
+        Overview,
+        Classes
     }
 }
 </script>

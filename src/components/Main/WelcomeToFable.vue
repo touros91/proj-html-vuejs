@@ -52,7 +52,7 @@ export default {
 <style lang="scss" scoped>
 @import '../../assets/style/common';
 .container-80 {
-    padding: 40px;
+    padding: 50px 0;
     .title {
         text-align: center;
         h1 {
