@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Header :srcLogo="require('./assets/img/logo.png')" :altLogo="'Fable Logo'" :nav="menu"/>
+    <Header :srcLogo="require('./assets/img/logo.png')" :altLogo="'Fable Logo'" :nav="menuHeader"/>
     <Main/>
     <Footer/>
   </div>
@@ -8,7 +8,7 @@
 
 <script>
 import Header from './components/Header.vue';
-import Main from './components/Main.vue';
+import Main from './components/Main/Main.vue';
 import Footer from './components/Footer.vue';
 
 export default {
@@ -20,7 +20,7 @@ export default {
   },
   data (){
         return {
-            menu: [
+            menuHeader: [
                 {
                   title: 'Home',
                   img: 'home.png',
@@ -71,5 +71,5 @@ export default {
 
 <style lang="scss">
 @import './assets/style/common';
-
+@import '~@fortawesome/fontawesome-free/css/all.css';
 </style>

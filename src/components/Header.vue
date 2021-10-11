@@ -37,7 +37,7 @@ header {
         display: flex;
         justify-content: space-between;
         .logo {
-            max-width: 180px;
+            max-width: 160px;
             img {
                 width: 100%;
             }
@@ -50,7 +50,6 @@ header {
                     list-style: none;
                     display: inline-block;
                     padding: 30px;
-                    width: 100px;
                     display: flex;
                     flex-direction: column;
                     align-items: center;
