@@ -56,7 +56,7 @@
                 <div class="box">
                     <div class="classes">
                         <div class="class-name">
-                            <h3>Thenderhearts </h3>
+                            <h3>Tenderhearts </h3>
                             <h4 class="gray">Class name</h4>
                         </div>
                         <div class="class-info">
