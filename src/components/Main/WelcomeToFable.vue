@@ -95,7 +95,7 @@ export default {
                 height: 200px;
                 position: relative;
                 background-color: $secondColor;
-                color: white;
+                color: $white;
                 img {
                     position: absolute;
                     top: 50%;

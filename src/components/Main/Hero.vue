@@ -79,7 +79,7 @@ section {
                 padding: 15px 20px;
                 background-color: $secondColor;
                 border: none;
-                color: white;
+                color: $white;
                 margin-top: 20px
             }
             .titles {

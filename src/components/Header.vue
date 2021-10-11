@@ -69,7 +69,7 @@ header {
                 }
                 li:hover {
                     background-color: #FE6500;
-                    color: white;
+                    color: $white;
                 }
                 li:hover .icon-image {
                     display: none;

@@ -23,16 +23,16 @@ section {
         display: flex;
         justify-content: space-between;
         font-size: 30px;
-        color: white;
+        color: $white;
         div {
             display: flex;
             align-items: center;
             font-weight: 300;
         }
         button {
-            border: 2px solid white;
+            border: 2px solid $white;
             background-color: $mainColor;
-            color: white;
+            color: $white;
             font-weight: bold;
             padding: 15px 20px;
             i {

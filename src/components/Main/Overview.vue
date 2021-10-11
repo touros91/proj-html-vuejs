@@ -73,7 +73,7 @@ section {
                 padding: 13px 20px;
                 background-color: $secondColor;
                 border: none;
-                color: white;
+                color: $white;
                 margin-top: 20px;
                 font-size: 18px;
             }

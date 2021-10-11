@@ -56,7 +56,7 @@
                 <div class="box">
                     <div class="classes">
                         <div class="class-name">
-                            <h3>Tenderhearts </h3>
+                            <h3>Tenderhearts</h3>
                             <h4 class="gray">Class name</h4>
                         </div>
                         <div class="class-info">
@@ -141,18 +141,18 @@ export default {
             display: flex;
             h2 {
                 color: $mainColor;
-                background-color: white;
+                background-color: $white;
                 padding-bottom: 40px;
                 font-weight: 400;
             }
             p {
                 color: #7E7E7E;
-                background-color: white;
+                background-color: $white;
                 padding-bottom: 40px;
             }
             .classes {
                 width: 50%;
-                color: white;
+                color: $white;
                 padding: 20px;
                 display: flex;
                 flex-direction: column;
@@ -169,7 +169,7 @@ export default {
                     padding: 13px 18px;
                     background-color: $secondColor;
                     border: none;
-                    color: white;
+                    color: $white;
                     position: absolute;
                     bottom: 0;
                     right: 0;
@@ -189,7 +189,7 @@ export default {
                 display: flex;
                 justify-content: space-evenly;
                 .class-age {
-                    border-right: 1px solid white;
+                    border-right: 1px solid $white;
                     padding-right: 10px;
                 }
             }
