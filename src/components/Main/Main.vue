@@ -3,6 +3,7 @@
         <Hero/>
         <LearnMore/>
         <WelcomeToFable/>
+        <Overview/>
     </main>
   
 </template>
@@ -11,13 +12,15 @@
 import Hero from './Hero.vue';
 import LearnMore from './LearnMore.vue';
 import WelcomeToFable from './WelcomeToFable.vue';
+import Overview from './Overview.vue';
 
 export default {
     name: 'Main',
     components: {
         Hero,
         LearnMore,
-        WelcomeToFable
+        WelcomeToFable,
+        Overview
     }
 }
 </script>

@@ -70,7 +70,7 @@ export default {
     }  
     .icon-box {
         display: flex;
-        margin-top: 60px;
+        margin-top: 50px;
         .icon {
             display: flex;
             flex-direction: column;
@@ -84,7 +84,7 @@ export default {
                 font-size: 22px;
             }
             p {
-                color: #BBBBBB;
+                color: #7E7E7E;
                 font-weight: 500;
                 text-align: center;
             }
