@@ -26,8 +26,8 @@
                     <button class="btn">BUY THIS THEME NOW</button>
                 </div>
                 <div class="kids-images">
-                    <img src="../../assets/img/slider_slide2_img1.png" alt="">
-                    <img id="background" src="../../assets/img/slider_slide2_img2.png" alt="">
+                    <img src="../../assets/img/slider_slide2_img1.png" alt="Child">
+                    <img id="background" src="../../assets/img/slider_slide2_img2.png" alt="Child">
                 </div>
             </div>
         </div>

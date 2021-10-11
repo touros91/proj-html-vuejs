@@ -44,6 +44,8 @@ header {
         }
         .nav-menu {
             width: 70%;
+            display: flex;
+            justify-content: flex-end;
             ul {
                 display: flex;
                 li {
