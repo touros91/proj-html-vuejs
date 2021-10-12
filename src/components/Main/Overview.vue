@@ -124,6 +124,9 @@ section {
             }
         }
         .images {
+            display: flex;
+            align-items: flex-end;
+            flex-direction: column;
             width: 50%;
             padding: 20px;
             .current-image {

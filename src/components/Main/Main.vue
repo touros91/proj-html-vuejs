@@ -8,6 +8,7 @@
         <Goals/>
         <Gallery/>
         <Reviews/>
+        <News/>
     </main>
   
 </template>
@@ -21,6 +22,7 @@ import Classes from './Classes.vue';
 import Goals from './Goals.vue';
 import Gallery from './Gallery.vue';
 import Reviews from './Reviews.vue';
+import News from './News.vue';
 
 export default {
     name: 'Main',
@@ -32,7 +34,8 @@ export default {
         Classes,
         Goals,
         Gallery,
-        Reviews
+        Reviews,
+        News
     }
 }
 </script>

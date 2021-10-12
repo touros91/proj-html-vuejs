@@ -91,7 +91,7 @@ section {
                 max-width: 450px;
                 position: absolute;
                 top: 50px;
-                left: 30%;
+                right: 25%;
                 img {
                     width: 100%;
                 }
