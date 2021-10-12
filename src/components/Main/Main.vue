@@ -6,6 +6,7 @@
         <Overview/>
         <Classes/>
         <Goals/>
+        <Gallery/>
     </main>
   
 </template>
@@ -17,6 +18,7 @@ import WelcomeToFable from './WelcomeToFable.vue';
 import Overview from './Overview.vue';
 import Classes from './Classes.vue';
 import Goals from './Goals.vue';
+import Gallery from './Gallery.vue';
 
 export default {
     name: 'Main',
@@ -26,7 +28,8 @@ export default {
         WelcomeToFable,
         Overview,
         Classes,
-        Goals
+        Goals,
+        Gallery
     }
 }
 </script>
