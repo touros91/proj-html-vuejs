@@ -11,18 +11,21 @@
             </div>
         </section>
         <ContactDetails :contactInfo="contacts"/>
+        <Form/>
     </footer>
 </template>
 
 <script>
 import GoogleMaps from './GoogleMaps.vue';
 import ContactDetails from './ContactDetails.vue';
+import Form from './Form.vue';
 
 export default {
     name: 'Footer',
     components: {
         GoogleMaps,
-        ContactDetails
+        ContactDetails,
+        Form
     },
     data() {
         return {
@@ -55,23 +58,25 @@ export default {
 
 <style lang="scss" scoped>
 @import '../../assets/style/common';
-
-.container-80 {
-    padding-top: 30px;
-    .title {
-        text-align: center;
-        h1 {
-            color: $mainColor;
-            font-size: 45px;
-            font-weight: 300;
-        }
-        h3 {
-            font-weight: 500;
-            color: #BBBBBB;
-            font-size: 17px;
-            margin-top: 10px;
-            margin-bottom: 35px;
-        }
-    }  
+footer {
+    padding: 40px 0;
+    .container-80 {
+        padding-top: 30px;
+        .title {
+            text-align: center;
+            h1 {
+                color: $mainColor;
+                font-size: 45px;
+                font-weight: 300;
+            }
+            h3 {
+                font-weight: 500;
+                color: #BBBBBB;
+                font-size: 17px;
+                margin-top: 10px;
+                margin-bottom: 35px;
+            }
+        }  
+    }
 }
 </style>

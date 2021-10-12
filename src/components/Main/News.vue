@@ -159,7 +159,7 @@ export default {
     }
     .button {
         text-align: center;
-        margin-top: 40px;
+        margin-top: 50px;
         .btn {
             padding: 15px 20px;
             background-color: $secondColor;
