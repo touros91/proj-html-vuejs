@@ -84,7 +84,7 @@ export default {
                 font-size: 22px;
             }
             p {
-                color: #7E7E7E;
+                color: $grayText;
                 font-weight: 500;
                 text-align: center;
             }

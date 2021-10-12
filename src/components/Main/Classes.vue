@@ -146,9 +146,10 @@ export default {
                 font-weight: 400;
             }
             p {
-                color: #7E7E7E;
+                color: $grayText;
                 background-color: $white;
                 padding-bottom: 40px;
+                font-weight: 500;
             }
             .classes {
                 width: 50%;

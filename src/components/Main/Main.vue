@@ -5,6 +5,7 @@
         <WelcomeToFable/>
         <Overview/>
         <Classes/>
+        <Goals/>
     </main>
   
 </template>
@@ -15,6 +16,7 @@ import LearnMore from './LearnMore.vue';
 import WelcomeToFable from './WelcomeToFable.vue';
 import Overview from './Overview.vue';
 import Classes from './Classes.vue';
+import Goals from './Goals.vue';
 
 export default {
     name: 'Main',
@@ -23,11 +25,13 @@ export default {
         LearnMore,
         WelcomeToFable,
         Overview,
-        Classes
+        Classes,
+        Goals
     }
 }
 </script>
 
 <style lang="scss">
+
 
 </style>

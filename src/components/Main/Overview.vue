@@ -64,7 +64,7 @@ export default {
 
 section {
     background-color: #F5F5F5;
-    padding: 30px 0;
+    padding: 50px 0;
     .container-80 {
         display: flex;
         .overview-info {
@@ -117,8 +117,8 @@ section {
                         font-size: 22px;
                     }
                     p {
-                        color: #7E7E7E;
-                        font-weight: 400;
+                        color: $grayText;
+                        font-weight: 500;
                     }
                 }
             }

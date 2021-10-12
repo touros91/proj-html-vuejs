@@ -18,7 +18,7 @@ export default {
 
 section {
     background-color: $mainColor;
-    padding: 30px 0;
+    padding: 50px 0;
     .container-80 {
         display: flex;
         justify-content: space-between;
