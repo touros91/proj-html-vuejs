@@ -9,7 +9,7 @@
 <script>
 import Header from './components/Header.vue';
 import Main from './components/Main/Main.vue';
-import Footer from './components/Footer.vue';
+import Footer from './components/Footer/Footer.vue';
 
 export default {
   name: 'App',
