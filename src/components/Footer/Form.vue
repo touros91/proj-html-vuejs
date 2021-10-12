@@ -29,7 +29,7 @@ export default {
     form {
         display: flex;
         justify-content: space-between;
-        margin: 30px 0;
+        margin: 40px 0 20px 0;
         .input-text-container {
             width: 49%;
             height: 100%;
@@ -69,6 +69,6 @@ export default {
             border: none;
             color: $white;
         }
-     }
+    }
 }
 </style>

@@ -38,7 +38,8 @@ export default {
                 {
                     icon: 'envelope_orange.png',
                     name: 'Phone & E-mail',
-                    details: 'Phone: 1-800-64-38 Fax: 1-800-64-39 office@fable.com'
+                    details: 'Phone: 1-800-64-38 Fax: 1-800-64-39',
+                    email: 'office@fable.com'
                 },
                 {
                     icon: 'mobile.png',
