@@ -1,6 +1,8 @@
 <template>
+    <!-- Goals section  -->
     <section>
         <div class="container-80">
+            <!-- Left side  -->
             <div class="left-box">
                 <h2>We have been educated children for over fifteen years. Our goals is to create a place that engages each child.</h2>
                 <p>Praesent arcu gravida vehicula est node maecenas loareet morbi a dosis luctus. Urna eget lacinia eleifend praesent luctus a arcu quis facilisis venenatis aenean interdum.</p>
@@ -13,6 +15,7 @@
                     <li><img src="../../assets/img/style_1.png" alt="Orange Checkbox">Positive learning environment for your child</li>
                 </ul>
             </div>
+            <!-- Right side with icons/images -->
             <div class="right-box">
                 <div class="icon-box">
                     <div class="icon">
@@ -46,8 +49,6 @@
                 </div>
             </div>
         </div>
-
-
     </section>
 </template>
 
@@ -127,12 +128,10 @@ section {
                             left: 50%;
                             transform: translate(-50%, -50%);        
                         }
-                    }
-                
+                    }    
                 }
             }
         }
     }
 }
-
 </style>

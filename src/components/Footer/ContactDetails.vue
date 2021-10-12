@@ -1,4 +1,5 @@
 <template>
+    <!-- Dynamic Contact Details Info with icons/images and descriptions -->
     <section>
         <div class="container-80">
             <div class="icon-box">

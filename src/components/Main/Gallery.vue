@@ -1,4 +1,5 @@
 <template>
+    <!-- Photo Gallery section  -->
     <section>
         <div class="images">
             <img src="../../assets/img/gallery_01.jpg" alt="Child">
@@ -55,5 +56,4 @@ section {
         }
     }
 }
-
 </style>

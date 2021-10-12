@@ -1,4 +1,5 @@
 <template>
+    <!-- Learn More section  -->
     <section>
         <div class="container-80">
             <div>How to Enroll Your Child to a Class?</div>

@@ -1,4 +1,5 @@
 <template>
+    <!-- Footer  -->
     <footer>
         <GoogleMaps/>
         <section>
@@ -59,6 +60,7 @@ export default {
 
 <style lang="scss" scoped>
 @import '../../assets/style/common';
+
 footer {
     padding: 40px 0;
     .container-80 {

@@ -1,6 +1,7 @@
 <template>
     <section> 
         <div class="container-80">
+            <!-- Small gray icons/images  -->
             <div class="images">
                 <div class="icon-up">
                     <img src="../../assets/img/slider_icon10.png" alt="">
@@ -18,6 +19,7 @@
                     <img src="../../assets/img/slider_icon13.png" alt="">
                 </div>
             </div>
+            <!-- Hero Titles with children images  -->
             <div class="hero-center">
                 <div class="titles">
                     <h2>Friendly Atmosphere</h2>
@@ -100,8 +102,6 @@ section {
                 }
             }
         }
-
     } 
 }
-
 </style>

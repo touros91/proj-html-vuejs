@@ -1,12 +1,14 @@
 <template>
     <section>
         <div class="container-80">
+            <!-- Title  -->
             <div class="title">
                 <h1>Welcome to Fable</h1>
                 <h3>Fable daycare, preschool, and kindergarden</h3>
                 <img src="../../assets/img/header_divider.png" alt="Divider">
             </div>
             <div class="icon-box">
+                <!-- Icons with text  -->
                 <div class="icon">
                     <div class="image">
                         <img src="../../assets/img/schoolbag_alt.png" alt="School Bag">
@@ -14,7 +16,6 @@
                     <h3>Morbi Etos</h3>
                     <p>Praesent interdum est gravida vehicula est node maecenas looaret morbi a dosis luctus novum est praesent.</p>
                 </div>
-
                 <div class="icon">
                     <div class="image violet">
                         <img src="../../assets/img/stroller_alt.png" alt="Stroller">
@@ -22,7 +23,6 @@
                     <h3>Congue Gravids</h3>
                     <p>Elipsis magna a terminal nulla elementum morbi elite forte maecenas est magna interdum vitae est.</p>
                 </div>
-
                 <div class="icon">
                     <div class="image">
                         <img src="../../assets/img/globe_alt.png" alt="Globe">
@@ -30,7 +30,6 @@
                     <h3>Maecenas Node</h3>
                     <p>Praesent interdum est gravida vehicula est node maecenas looaret morbi a dosis luctus novum est praesent.</p>
                 </div>
-
                 <div class="icon">
                     <div class="image violet">
                         <img src="../../assets/img/bell_alt.png" alt="Bell">
@@ -51,6 +50,7 @@ export default {
 
 <style lang="scss" scoped>
 @import '../../assets/style/common';
+
 .container-80 {
     padding: 50px 0;
     .title {
@@ -109,6 +109,4 @@ export default {
         }
     } 
 }
-
-
 </style>

@@ -1,4 +1,5 @@
 <template>
+    <!-- Reviews section  -->
     <section>
         <div class="container-80">
             <div class="image">
@@ -16,7 +17,6 @@
                 <div class="small-box"></div>
             </div>
         </div>
-
     </section>
 </template>
 
@@ -83,5 +83,4 @@ section {
         }
     }
 }
-
 </style>

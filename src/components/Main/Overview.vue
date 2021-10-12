@@ -1,6 +1,7 @@
 <template>
     <section>
         <div class="container-80">
+            <!-- left side with overview description  -->
             <div class="overview-info">
                 <button class="btn-active">Overview</button>
                 <button class="btn-unactive">Our Mission</button>
@@ -26,6 +27,7 @@
                     </div>
                 </div>
             </div>
+            <!-- right side with images  -->
             <div class="images">
                 <div class="current-image">
                     <img src="../../assets/img/gallery_08-690x506.jpg" alt="Kindergarten">
@@ -49,7 +51,6 @@
                 </div>
             </div>
         </div>
-
     </section>
 </template>
 

@@ -1,4 +1,5 @@
 <template>
+    <!-- Classes section  -->
     <section>
         <div class="container-80">
             <div class="title">
@@ -97,9 +98,7 @@
                         <button class="btn">READ MORE <i class="fas fa-chevron-right"></i></button>
                     </div>
                 </div>
-
-            </div>
-           
+            </div> 
         </div>
     </section>
 </template>

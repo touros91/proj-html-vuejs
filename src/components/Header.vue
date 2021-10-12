@@ -1,9 +1,12 @@
 <template>
+    <!-- Dynamic Header  -->
     <header>
         <div class="container-80">
+            <!-- logo -->
             <div class="logo">
                 <img :src="srcLogo" :alt="altLogo">
             </div>
+            <!-- menu  -->
             <div class="nav-menu">
                 <ul>
                     <li v-for="(icon, index) in nav" :key="index">

@@ -1,4 +1,5 @@
 <template>
+    <!-- Form section with inputs  -->
     <section>
         <div class="container-80">
             <form action="">

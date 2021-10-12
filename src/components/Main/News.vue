@@ -1,4 +1,5 @@
 <template>
+    <!-- News section  -->
     <section>
         <div class="container-80">
             <div class="title">
@@ -170,8 +171,6 @@ export default {
                 margin-left: 10px;
             }
         }
-    }
-    
+    } 
 }
-
 </style>

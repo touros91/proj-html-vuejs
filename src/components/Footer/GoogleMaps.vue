@@ -1,4 +1,5 @@
 <template>
+    <!-- Google Maps image section  -->
     <section>
         <div class="google-maps"></div>
     </section>
