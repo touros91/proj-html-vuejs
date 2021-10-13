@@ -114,6 +114,10 @@ section {
                 font-size: 18px;
                 margin-left: 15px;
             }
+            .btn-unactive:hover {
+                background-color: $secondColor;
+                color: $white;
+            }
             .title {
                 width: 85%;
                 h2 {
