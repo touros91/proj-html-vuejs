@@ -30,23 +30,25 @@
             <!-- right side with images  -->
             <div class="images">
                 <div class="current-image">
-                    <img src="../../assets/img/gallery_08-690x506.jpg" alt="Kindergarten">
+                    <img v-show="id==0" src="../../assets/img/gallery_08-690x506.jpg" alt="Kindergarten">
+                    <img v-show="id==1" src="../../assets/img/gallery_01.jpg" alt="Kindergarten">
+                    <img v-show="id==2" src="../../assets/img/gallery_07-690x506.jpg" alt="Kindergarten">
                     <div class="arrow-left">
-                        <img src="../../assets/img/slider_previous.png" alt="Arrow left">
+                        <img @click="sliderPrevious()" src="../../assets/img/slider_previous.png" alt="Arrow left">
                     </div>
                     <div class="arrow-right">
-                        <img src="../../assets/img/slider_next.png" alt="Arrow right">
+                        <img @click="sliderNext()" src="../../assets/img/slider_next.png" alt="Arrow right">
                     </div>
                 </div>
-                <div class="unactive-images">
-                    <div class="image">
-                        <img src="../../assets/img/gallery_07-690x506.jpg" alt="Kindergarten">
+                <div class="unactive-images"> 
+                    <div class="image" :class="id==0 ? 'border-bottom' : '' ">
+                        <img @click="id=0" src="../../assets/img/gallery_08-690x506.jpg" alt="Kindergarten">
                     </div>
-                    <div class="image">
-                        <img src="../../assets/img/gallery_01.jpg" alt="Kindergarten">
+                    <div class="image" :class="id==1 ? 'border-bottom' : '' ">
+                        <img @click="id=1" src="../../assets/img/gallery_01.jpg" alt="Kindergarten">
                     </div>
-                    <div class="image">
-                        <img src="../../assets/img/gallery_08-690x506.jpg" alt="Kindergarten">
+                    <div class="image" :class="id==2 ? 'border-bottom' : '' ">
+                        <img @click="id=2" src="../../assets/img/gallery_07-690x506.jpg" alt="Kindergarten">
                     </div>
                 </div>
             </div>
@@ -56,7 +58,26 @@
 
 <script>
 export default {
-    name: 'Overview'
+    name: 'Overview',
+    data(){
+        return {
+            id: 0
+        }
+    },
+    methods: {
+        sliderPrevious(){
+            this.id--;
+            if (this.id == -1) {
+                this.id = 2;
+            }
+        },
+        sliderNext(){
+            this.id++;
+            if (this.id == 3) {
+                this.id = 0;
+            }
+        }
+    }
 }
 </script>
 
@@ -166,10 +187,7 @@ section {
                     }
                 }
             }
-            .unactive-images .image:first-child {
-                border-bottom: 2px solid $secondColor;
-            }
-            .unactive-images .image:hover{
+            .border-bottom {
                 border-bottom: 2px solid $secondColor;
             }
         }
