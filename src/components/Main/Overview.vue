@@ -181,6 +181,9 @@ section {
                     top: 50%;
                     right: 0;
                 }
+                .arrow-left:hover, .arrow-right:hover {
+                    background-color: $mainColor;
+                }
             }
             .unactive-images {
                 width: 500px;

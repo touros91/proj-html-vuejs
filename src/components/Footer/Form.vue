@@ -70,6 +70,9 @@ export default {
             border: none;
             color: $white;
         }
+        .btn:hover {
+            background-color: $mainColor;
+        }
     }
 }
 </style>

@@ -171,6 +171,9 @@ export default {
                 margin-left: 10px;
             }
         }
-    } 
+        .btn:hover {
+            background-color: $mainColor;
+        }
+    }
 }
 </style>

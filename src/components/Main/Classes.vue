@@ -177,6 +177,9 @@ export default {
                         margin-left: 5px;
                     }
                 }
+                .btn:hover {
+                    background-color: $mainColor;
+                }
             }
             .text-center {
                 text-align: center;
