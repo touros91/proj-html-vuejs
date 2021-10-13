@@ -33,14 +33,14 @@
                     <img v-show="id==0" src="../../assets/img/gallery_08-690x506.jpg" alt="Kindergarten">
                     <img v-show="id==1" src="../../assets/img/gallery_01.jpg" alt="Kindergarten">
                     <img v-show="id==2" src="../../assets/img/gallery_07-690x506.jpg" alt="Kindergarten">
-                    <div class="arrow-left">
+                    <div class="arrow-left" @click="stopSlider()">
                         <img @click="sliderPrevious()" src="../../assets/img/slider_previous.png" alt="Arrow left">
                     </div>
-                    <div class="arrow-right">
+                    <div class="arrow-right" @click="stopSlider()">
                         <img @click="sliderNext()" src="../../assets/img/slider_next.png" alt="Arrow right">
                     </div>
                 </div>
-                <div class="unactive-images"> 
+                <div class="unactive-images" @click="stopSlider()"> 
                     <div class="image" :class="id==0 ? 'border-bottom' : '' ">
                         <img @click="id=0" src="../../assets/img/gallery_08-690x506.jpg" alt="Kindergarten">
                     </div>
@@ -61,7 +61,8 @@ export default {
     name: 'Overview',
     data(){
         return {
-            id: 0
+            id: 0,
+            slider: null
         }
     },
     methods: {
@@ -76,7 +77,13 @@ export default {
             if (this.id == 3) {
                 this.id = 0;
             }
+        },
+        stopSlider(){
+            clearInterval(this.slider);
         }
+    },
+    mounted() {
+        this.slider = setInterval(this.sliderNext, 2000);
     }
 }
 </script>
