@@ -82,7 +82,11 @@ section {
                 background-color: $secondColor;
                 border: none;
                 color: $white;
+                font-weight: bold;
                 margin-top: 20px
+            }
+            .btn:hover {
+                background-color: $mainColor;
             }
             .titles {
                 top: 200px;

@@ -54,6 +54,10 @@ section {
                 margin-left: 10px;
             }
         }
+        button:hover {
+            background-color: $white;
+            color: $mainColor;
+        }
     }
 }
 </style>

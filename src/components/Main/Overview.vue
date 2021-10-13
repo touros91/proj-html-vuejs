@@ -83,7 +83,7 @@ export default {
         }
     },
     mounted() {
-        this.slider = setInterval(this.sliderNext, 2000);
+        this.slider = setInterval(this.sliderNext, 3000);
     }
 }
 </script>
