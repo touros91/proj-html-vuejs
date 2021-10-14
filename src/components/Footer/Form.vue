@@ -65,10 +65,7 @@ export default {
         display: flex;
         justify-content: center;
         .btn {
-            padding: 15px 20px;
-            background-color: $secondColor;
-            border: none;
-            color: $white;
+            @include orangeButton;
         }
         .btn:hover {
             background-color: $mainColor;

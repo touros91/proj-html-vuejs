@@ -166,10 +166,7 @@ export default {
                     height: 100%;
                 }
                 .btn {
-                    padding: 13px 18px;
-                    background-color: $secondColor;
-                    border: none;
-                    color: $white;
+                    @include orangeButton;
                     position: absolute;
                     bottom: 0;
                     right: 0;

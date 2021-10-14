@@ -31,11 +31,7 @@ section {
             font-weight: 300;
         }
         button {
-            border: 2px solid $white;
-            background-color: $mainColor;
-            color: $white;
-            font-weight: bold;
-            padding: 15px 20px;
+            @include violetButton;
             i {
                 margin-left: 10px;
             }

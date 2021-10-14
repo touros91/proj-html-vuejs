@@ -2,3 +2,21 @@ $mainColor: #554e9e;
 $secondColor: #FE6601;
 $white: white;          
 $grayText: #7E7E7E;
+
+@mixin orangeButton {
+    padding: 15px 20px;
+    background-color: $secondColor;
+    border: none;
+    color: $white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+@mixin violetButton {
+    border: 2px solid $white;
+    background-color: $mainColor;
+    color: $white;
+    font-weight: bold;
+    padding: 15px 20px;
+    cursor: pointer;
+}

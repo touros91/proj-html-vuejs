@@ -99,10 +99,8 @@ section {
         .overview-info {
             width: 50%;
             .btn-active {
-                padding: 13px 20px;
-                background-color: $secondColor;
-                border: none;
-                color: $white;
+                @include orangeButton;
+                font-weight: 500;
                 margin-top: 20px;
                 font-size: 18px;
             }
@@ -117,6 +115,7 @@ section {
             .btn-unactive:hover {
                 background-color: $secondColor;
                 color: $white;
+                cursor: pointer;
             }
             .title {
                 width: 85%;
@@ -173,6 +172,7 @@ section {
                     width: 40px;
                     background-color: $secondColor;
                     position: absolute;
+                    cursor: pointer;
                     img {
                         width: 100%;
                     }
@@ -193,6 +193,7 @@ section {
                 width: 500px;
                 display: flex;
                 justify-content: space-between;
+                cursor: pointer;
                 .image {
                     width: 160px;
                     padding-bottom: 5px;

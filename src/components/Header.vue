@@ -59,6 +59,7 @@ header {
                     flex-direction: column;
                     align-items: center;
                     color: $mainColor;
+                    cursor: pointer;
                     .icon-image, .icon-image-white {
                         max-width: 30px;
                         margin-bottom: 10px;

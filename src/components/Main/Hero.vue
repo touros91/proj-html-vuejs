@@ -78,12 +78,9 @@ section {
                 font-weight: 100;
             }
             .btn {
-                padding: 15px 20px;
-                background-color: $secondColor;
-                border: none;
-                color: $white;
-                font-weight: bold;
-                margin-top: 20px
+                @include orangeButton;
+                margin-top: 20px;
+                font-weight: 500;
             }
             .btn:hover {
                 background-color: $mainColor;

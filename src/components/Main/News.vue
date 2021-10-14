@@ -162,11 +162,7 @@ export default {
         text-align: center;
         margin-top: 50px;
         .btn {
-            padding: 15px 20px;
-            background-color: $secondColor;
-            border: none;
-            color: $white;
-            font-weight: bold;
+            @include orangeButton;
             i {
                 margin-left: 10px;
             }
